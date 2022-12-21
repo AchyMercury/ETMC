@@ -1,0 +1,14 @@
+#include <iostream>
+
+int main() {
+  // Hello  
+double weighte;
+double weightm;
+std::cout << "Enter the weight in on earth in pounds. \n";
+
+std::cin >> weighte;
+
+weightm = (weighte / 9.81) * 3.711;
+
+std::cout << "The weight on Mars in pounds is " << weightm;
+}
